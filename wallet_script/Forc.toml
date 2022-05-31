@@ -1,0 +1,8 @@
+[project]
+name = "wallet_script"
+authors = ["ankit"]
+entry = "main.sw"
+license = "Apache-2.0"
+
+[dependencies]
+wallet_lib = { path = "../wallet_lib" }
